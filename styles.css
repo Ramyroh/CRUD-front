@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(231, 231, 231);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+.titulo {
+  font-size: 0.7rem;
+  width: vw;
+  height: 1rem;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem;
+}
+
+.inputheader {
+  width: vw;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  background-color: aliceblue;
+}
+
+.ih{
+  padding: 0 1rem;
+}
+
+.ih input{
+  width: 16rem;
+  height: 2rem;
+}
+
+
+#buttonhead {
+  width: 16rem;
+  height: 2rem;
+  margin-top: 1rem;
+  border: none;
+  font-weight: bolder;
+  color: aliceblue;
+  background-color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tabela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tabelafull {
+  width: 80rem;
+  background-color: aliceblue;
+}
+
+#tabelahead {
+  background-color: green;
+  color: white;
+}
+
+#tabelabody{
+  border: 3px solid #000000;
+}
+
+.tabelatitulo {
+  padding: 0.5rem;
+  text-align: start;
+}
+
+.tabelacelula {
+  padding: 0.2rem;
+  border: none;
+  background: none;
+}
+
+.buttonlistDeletar {
+  text-align: center;
+  width: 4rem;
+  height: 2rem;
+  border: none;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttonlistEditar {
+  text-align: center;
+  width: 4rem;
+  height: 2rem;
+  border: none;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  background-color: rgb(38, 161, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttonlistSalvar {
+  display: none;
+  text-align: center;
+  width: 4rem;
+  height: 2rem;
+  border: none;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  background-color: rgb(38, 255, 49);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tbuton {
+  width: 200px;
+  text-align: center;
+  gap: 10px;
+}
